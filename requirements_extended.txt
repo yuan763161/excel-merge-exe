@@ -1,0 +1,16 @@
+# Core dependencies for Excel Merger Application
+pandas==2.0.3
+openpyxl==3.1.2
+
+# Packaging options (install as needed)
+pyinstaller==5.13.0
+cx_Freeze==6.15.10
+py2exe==0.13.0.1; sys_platform == "win32"
+
+# Alternative pandas/excel libraries for smaller builds (optional)
+# xlrd==2.0.1
+# xlsxwriter==3.1.2
+
+# GUI enhancements (optional)
+# Pillow==10.0.0  # For icons and images
+# tkinter is built into Python, no need to install separately

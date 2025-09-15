@@ -1,0 +1,4 @@
+pandas==2.0.3
+openpyxl==3.1.2
+# 固定 PyInstaller 版本，兼容 Windows-latest 镜像
+pyinstaller==6.6.0
