@@ -29,5 +29,5 @@ jobs:
     - name: Upload EXE
       uses: actions/upload-artifact@v4
       with:
-        name: Excel合并工具
+        name: Excel-Merger-Tool
         path: dist/*.exe
