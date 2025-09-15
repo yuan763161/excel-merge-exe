@@ -20,11 +20,11 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pandas openpyxl pyinstaller
+        pip install openpyxl pyinstaller
 
     - name: Build EXE
       run: |
-        pyinstaller --onefile --windowed --name "Excel合并工具" excel_merger_simple.py
+        pyinstaller --onefile --windowed --name "Excel合并工具" excel_merger_standalone.py
 
     - name: Upload EXE
       uses: actions/upload-artifact@v4
